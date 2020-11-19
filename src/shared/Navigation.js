@@ -7,44 +7,39 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div>
-        <img src={logo} className="Nav-logo" alt="logo" />
+      <div className='Nav-bar'>
+        <div className="Nav-pane">
+          <img src={logo} className="Nav-logo" alt="logo" />
+        </div>
 
-        <a
-          className="Nav-link"
-          href="http://localhost:3000"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          About
-        </a>
+        <div className="Nav-pane">
+          <a
+            className="Nav-link"
+            href="http://localhost:3000"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            About
+          </a>
+          
+          <a
+            className="Nav-link"
+            href="http://localhost:3000"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Upload
+          </a>
 
-        <a
-          className="Nav-link"
-          href="http://localhost:3000"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Upload
-        </a>
-
-        <a 
-          className="Nav-link"
-          href="http://localhost:3000"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Manage
-        </a>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <a
+            className="Nav-link"
+            href="http://localhost:3000"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Manage
+          </a>
+        </div>
       </div>
     );
   }
