@@ -1,6 +1,6 @@
 import Navigation from '../shared/Navigation';
 import Uploader from '../utils/Uploader';
-import './ClearCut.css';
+import './Upload.css';
 
 function App() {
   return (
