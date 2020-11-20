@@ -1,6 +1,5 @@
-import Navigation from './shared/Navigation';
-import Uploader from './Uploader';
-import './App.css';
+import Navigation from '../shared/Navigation';
+import './Manage.css';
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
         <Navigation />
       </header>
       <body>
-        <p>App home page.</p>
+        <p>Welcome to ClearCut! An app designed to cut out the objects from an media you provide it.</p>
       </body>
     </div>
   );

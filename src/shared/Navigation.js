@@ -36,7 +36,7 @@ class Navigation extends React.Component {
 
           <NavLink
             exact
-            to='/'
+            to='/manage'
             activeStyle={{
               fontWeight: "bold"
             }}
