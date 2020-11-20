@@ -1,5 +1,6 @@
 import logo from '../media/images/logo.png';
 import React from 'react';
+import { NavLink } from 'react-router-dom'
 import './Navigation.css';
 
 
@@ -13,32 +14,35 @@ class Navigation extends React.Component {
         </div>
 
         <div className="Nav-pane">
-          <a
-            className="Nav-link"
-            href="http://localhost:3000"
-            target="_blank"
-            rel="noopener noreferrer"
+          <NavLink
+            exact
+            to="/about"
+            activeStyle={{
+              fontWeight: "bold"
+            }}
           >
             About
-          </a>
+          </NavLink>
           
-          <a
-            className="Nav-link"
-            href="http://localhost:3000"
-            target="_blank"
-            rel="noopener noreferrer"
+          <NavLink
+            exact
+            to='/upload'
+            activeStyle={{
+              fontWeight: "bold"
+            }}
           >
             Upload
-          </a>
+          </NavLink>
 
-          <a
-            className="Nav-link"
-            href="http://localhost:3000"
-            target="_blank"
-            rel="noopener noreferrer"
+          <NavLink
+            exact
+            to='/'
+            activeStyle={{
+              fontWeight: "bold"
+            }}
           >
             Manage
-          </a>
+          </NavLink>
         </div>
       </div>
     );

@@ -8,7 +8,7 @@ import ClearCut from './ClearCut';
 const routes = (
   <Route path='/' component={App}>
     <Route path='/about' component={About} />
-    <Route path='/clear-cut' component={ClearCut} />
+    <Route path='/upload' component={ClearCut} />
   </Route>
 );
 
