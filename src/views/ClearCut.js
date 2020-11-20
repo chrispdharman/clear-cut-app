@@ -8,10 +8,10 @@ function App() {
       <header className="App-header">
         <Navigation />
       </header>
-      <body>
+      <div className='App-body'>
         <p>Upload your media for processing here!</p>
         <Uploader />
-      </body>
+      </div>
     </div>
   );
 }

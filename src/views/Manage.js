@@ -7,9 +7,9 @@ function About() {
       <header className="App-header">
         <Navigation />
       </header>
-      <body>
+      <div className='App-body'>
         <p>Manage your processed files here.</p>
-      </body>
+      </div>
     </div>
   );
 }
