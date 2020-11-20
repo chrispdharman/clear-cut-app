@@ -1,5 +1,5 @@
 import Navigation from '../shared/Navigation';
-import Uploader from '../shared/Uploader';
+import Uploader from '../utils/Uploader';
 import './ClearCut.css';
 
 function App() {

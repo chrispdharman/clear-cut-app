@@ -1,12 +1,17 @@
-import logo from '../media/images/logo.png';
 import React from 'react';
 import { NavLink } from 'react-router-dom'
+
+import logo from '../media/images/logo.png';
 import './Navigation.css';
 
 
 class Navigation extends React.Component {
 
   render() {
+    const activeLinkStyle = {
+      fontWeight: "bold"
+    };
+
     return (
       <div className='Nav-bar'>
         <div className="Nav-pane">
@@ -17,9 +22,7 @@ class Navigation extends React.Component {
           <NavLink
             exact
             to="/about"
-            activeStyle={{
-              fontWeight: "bold"
-            }}
+            activeStyle={activeLinkStyle}
           >
             About
           </NavLink>
@@ -27,9 +30,7 @@ class Navigation extends React.Component {
           <NavLink
             exact
             to='/upload'
-            activeStyle={{
-              fontWeight: "bold"
-            }}
+            activeStyle={activeLinkStyle}
           >
             Upload
           </NavLink>
@@ -37,9 +38,7 @@ class Navigation extends React.Component {
           <NavLink
             exact
             to='/manage'
-            activeStyle={{
-              fontWeight: "bold"
-            }}
+            activeStyle={activeLinkStyle}
           >
             Manage
           </NavLink>
