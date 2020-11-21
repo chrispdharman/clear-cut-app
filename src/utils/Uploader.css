@@ -1,0 +1,11 @@
+.File-Uploader {
+  text-align: center;
+}
+
+.File-Uploader img {
+  height: auto;
+  width: 80%;
+  background-color: #f8f8f8;
+  min-height: 30px;
+  margin-top: 10px;
+}

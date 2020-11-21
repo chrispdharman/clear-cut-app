@@ -3,27 +3,30 @@
   border: gold 1px solid;
 }
 
+.Nav-pane {
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .Logo-pane a {
   float: left;
 }
 
 .Links-pane a {
+  min-width: 85px;
   background-color: lemonchiffon;
   border: gold 1px solid;
   color: darkblue;
-  margin-right: -1px;
-  padding: 53px 10px 52px 10px;
+  display: inline-block;
+  margin-left: -1px;
+  padding: 53px 2px 52px 2px;
+  text-align: center;
   text-decoration: none;
 }
 
 .Links-pane a:hover {
   background-color: #ffe866;
-}
-
-.Nav-pane {
-  background-color: #ffffff;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .Nav-logo {
