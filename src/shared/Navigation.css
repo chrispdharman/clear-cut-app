@@ -3,7 +3,11 @@
   border: gold 1px solid;
 }
 
-.Nav-bar a {
+.Logo-pane a {
+  float: left;
+}
+
+.Links-pane a {
   background-color: lemonchiffon;
   border: gold 1px solid;
   color: darkblue;
@@ -12,7 +16,7 @@
   text-decoration: none;
 }
 
-.Nav-bar a:hover {
+.Links-pane a:hover {
   background-color: #ffe866;
 }
 

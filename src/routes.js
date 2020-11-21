@@ -9,10 +9,10 @@ import Landing from './views/Landing';
 
 const routes = (
   <Switch>
-    <Route path='/' component={Landing} />
     <Route path='/about' component={About} />
     <Route path='/manage' component={Manage} />
     <Route path='/upload' component={Upload} />
+    <Route path='/' component={Landing} />
   </Switch>
 );
 
