@@ -3,15 +3,11 @@ export default class Processor {
   constructor(type) {
     this.type = type;
 
-    this.router = this.router.bind(this)
+    this.process = this.process.bind(this)
   }
 
-  getUrlSecrets(url_ref) {
-    
-  }
-
-  fireRequest(url_ref, verb, data) {
-    url_details = getUrlDetails(url_ref)
+  fireRequest(request, callback) {
+    var url_details = this.getUrlDetails(request.url_ref)
 
     var url = url_details.url;
     var api_key = url_details.api_key;
@@ -21,27 +17,41 @@ export default class Processor {
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
-            callback(xhr.response);
+          callback(xhr.response);
         }
     }
 
-    xhr.open(verb, url, false);
+    xhr.open(request.verb, url, false);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader('X-API-KEY', api_key);
-    xhr.send(JSON.stringify(data));
+    xhr.send(JSON.stringify(request.data));
   }
 
-  router(data) {
+  getUrlDetails(url_ref) {
+    return {
+      url: null,
+      api_key: null
+    }
+  }
+
+  handleResponse(response){
+    console.log('response: ', response);
+  }
+
+  process(data) {
     if (this.type === 'process-clear-cut') {
       var request_data = {
         image: data.file
       };
 
-      fireRequest(
-        'clear-cut-lambda-api',
-        'POST',
-        request_data
+      this.fireRequest({
+          url_ref: 'clear-cut-lambda-api',
+          verb: 'POST',
+          data: request_data
+        },
+        this.handleResponse
       );
+      return
     }
 
     console.log('Handler type of ', this.type, ' is not handled.');
