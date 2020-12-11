@@ -10,7 +10,7 @@ function App() {
       </header>
       <div className='App-body'>
         <p>Upload your media for processing here!</p>
-        <Uploader />
+        <Uploader handler='process-clear-cut'/>
       </div>
     </div>
   );
