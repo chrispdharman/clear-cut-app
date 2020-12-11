@@ -18,11 +18,29 @@ class Uploader extends React.Component {
     })
   }
 
+  submitFile(event) {
+    // Process uploaded media
+    var image = this.state;
+
+    console.log('image', image);
+
+    // Asynchronously hit the clear-cut lambda
+    // fireRequest({
+    //     endpoint: window.endpoints.processMedia,
+    //     verb: 'POST',
+    //     data: {
+    //         image: mediaEntry.src,
+    //         item_id: item_id
+    //     }
+    // });
+  }
+
   render() {
     return (
       <div className='File-Uploader'>
         <input type="file" onChange={this.handleChange}/>
         <img src={this.state.file}/>
+        <input type="submit" name="submit" onClick={this.submitFile}/>
       </div>
     );
   }

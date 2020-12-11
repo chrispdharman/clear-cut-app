@@ -1,5 +1,5 @@
 import Navigation from '../shared/Navigation';
-import Uploader from '../utils/Uploader';
+import Uploader from '../shared/Uploader';
 import './Upload.css';
 
 function App() {
