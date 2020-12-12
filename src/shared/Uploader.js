@@ -10,7 +10,8 @@ class Uploader extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      file: null
+      file: null,
+      password: null
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -26,7 +27,22 @@ class Uploader extends React.Component {
   }
 
   handleClick(event) {
-    this.processor.process(this.state);
+    // Prompt user for password to enable access to BE APIs
+    const enteredPassword = prompt('Please enter password');
+
+    // Update password and process data, accounting for the asynchronous nature of this.setState().
+    this.setState({
+      password: enteredPassword
+    }, function() {
+        if (this.state.file && this.state.password) {
+          this.processor.process(this.state);
+        } else if (!this.state.password) {
+          alert('No password found. Please enter the correct password on submitting.')
+        } else {
+          alert('No file found. Please upload a file prior to submitting.')
+        }
+      }
+    )
   }
 
   render() {
