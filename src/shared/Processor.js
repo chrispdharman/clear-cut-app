@@ -31,7 +31,7 @@ export default class Processor {
 
   getUrlCredentials(url_ref, encryptKey) {
     const credentials_map = {
-      'clear-cut-api': 'U2FsdGVkX1/L14+jl21iokCdyiFj7NNQ82A/EYEtXz2o3Z31GTwpeW9p+1y176Dxv659QkYpbC7ZtrnEt2Dt1cFihVyqsXY0yVaNUogPj+Fzz1QTERZsUJdHXXUKLc91'
+      'clear-cut-api': 'U2FsdGVkX18xNs7jMxE5K68a7pvXAjSO991reGoTj+fzH68m2Igxd2qK981KQAWCRkDeFpsHSCpGKLA3PX5YD2eUf3FbdIDL0F/+JEeyChANLJOxmXL+K4IYMhv3QmTzMR04MIvwDQYKsfh5pwLtk8ZZM1h5UydGDkGGrSzcwTM3yWMOHOUM+5ejSj7gdq5i/R1oBZ4+BKHIgZzLlOdMbw=='
     };
 
     // See https://www.npmjs.com/package/crypto-js
