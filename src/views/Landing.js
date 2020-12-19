@@ -1,6 +1,8 @@
 import Navigation from '../shared/Navigation';
 import './Landing.css';
 
+import { withAuthenticator } from '@aws-amplify/ui-react'
+
 function App() {
   return (
     <div className="App">
@@ -14,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
