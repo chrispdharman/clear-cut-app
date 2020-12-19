@@ -6,3 +6,4 @@
 
 # To get AWS Amplify working
 1. Follow https://docs.amplify.aws/start/getting-started/installation/q/integration/react#install-and-configure-the-amplify-cli
+1. To take the app online, run: `amplify publish`
