@@ -1,26 +1,26 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-clearcutapp-dev-150002-authRole",
-            "UnauthRoleArn": "arn:aws:iam::197946711863:role/amplify-clearcutapp-dev-150002-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::197946711863:role/amplify-clearcutapp-dev-150002-authRole",
-            "Region": "eu-west-2",
-            "DeploymentBucketName": "amplify-clearcutapp-dev-150002-deployment",
-            "UnauthRoleName": "amplify-clearcutapp-dev-150002-unauthRole",
-            "StackName": "amplify-clearcutapp-dev-150002",
-            "StackId": "arn:aws:cloudformation:eu-west-2:197946711863:stack/amplify-clearcutapp-dev-150002/e10ec5c0-420a-11eb-8430-06d99cd2aaee",
-            "AmplifyAppId": "d2mnoxw70vnccy"
-        },
-        "categories": {
-            "auth": {
-                "clearcutappfab30f5c": {}
-            },
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d2mnoxw70vnccy",
-                    "type": "manual"
-                }
-            }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clearcutapp-dev-150002-authRole",
+      "UnauthRoleArn": "arn:aws:iam::197946711863:role/amplify-clearcutapp-dev-150002-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::197946711863:role/amplify-clearcutapp-dev-150002-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-clearcutapp-dev-150002-deployment",
+      "UnauthRoleName": "amplify-clearcutapp-dev-150002-unauthRole",
+      "StackName": "amplify-clearcutapp-dev-150002",
+      "StackId": "arn:aws:cloudformation:eu-west-2:197946711863:stack/amplify-clearcutapp-dev-150002/e10ec5c0-420a-11eb-8430-06d99cd2aaee",
+      "AmplifyAppId": "d2mnoxw70vnccy"
+    },
+    "categories": {
+      "auth": {
+        "clearcutappfab30f5c": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2mnoxw70vnccy",
+          "type": "manual"
         }
+      }
     }
+  }
 }
