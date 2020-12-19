@@ -14,5 +14,32 @@
       "providerPlugin": "awscloudformation",
       "type": "manual"
     }
+  },
+  "function": {
+    "clear-cut-storage": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "storage",
+          "resourceName": "media",
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "attributeEnvMap": {
+            "Name": "TABLE_NAME",
+            "Arn": "TABLE_ARN"
+          }
+        }
+      ]
+    }
+  },
+  "storage": {
+    "media": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
