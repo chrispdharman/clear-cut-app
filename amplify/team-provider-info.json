@@ -10,6 +10,11 @@
       "StackName": "amplify-clearcutapp-dev-150002",
       "StackId": "arn:aws:cloudformation:eu-west-2:197946711863:stack/amplify-clearcutapp-dev-150002/e10ec5c0-420a-11eb-8430-06d99cd2aaee",
       "AmplifyAppId": "d2mnoxw70vnccy"
+    },
+    "categories": {
+      "auth": {
+        "clearcutappfab30f5c": {}
+      }
     }
   }
 }
