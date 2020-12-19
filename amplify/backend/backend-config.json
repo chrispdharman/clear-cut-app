@@ -16,7 +16,7 @@
     }
   },
   "function": {
-    "clear-cut-storage": {
+    "clearcutstorage": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
