@@ -1,6 +1,7 @@
-import API from '@aws-amplify/api';
+import Amplify, { API } from 'aws-amplify';
+import awsconfig from '../aws-exports';
 
-API.configure();
+Amplify.configure(awsconfig);
 
 
 export default class Processor {
@@ -37,5 +38,5 @@ export default class Processor {
     }
 
     console.log('Handler type of ', this.type, ' is not handled.');
-  }
+  };
 }
