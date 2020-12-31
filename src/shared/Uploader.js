@@ -27,9 +27,6 @@ class Uploader extends React.Component {
   }
 
   handleClick(event) {
-    // Prompt user for password to enable access to BE APIs
-    const enteredPassword = prompt('Please enter password');
-
     // Process image if a file was uploaded.
     if (this.state.file) {
       this.processor.process(this.state);

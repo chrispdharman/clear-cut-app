@@ -17,16 +17,20 @@ export default class Processor {
 
   async process(data) {
     if (this.type === 'process-clear-cut') {
-      const apiName = 'clearcutstorage';
-      const path = '/item'
+      // Send to clear cut api lambda first:
       // const request_data = {
       //   image: data.file,
       //   name: data.name
       // };
+      const processed_url = 'https://clear-cut.s3.eu-west-2.amazonaws.com/results/live/20200621-205934/Bob/';
+
+      // Store item (new)
+      const apiName = 'clearcutstorage';
+      const path = '/item'
       const request_data = {
         name: data.name,
-        original_url: 'https://clear-cut.s3.eu-west-2.amazonaws.com/results/live/20200621-205934/Bob/0001_size_reduced_image.png',
-        clearcut_url: 'https://clear-cut.s3.eu-west-2.amazonaws.com/results/live/20200621-205934/Bob/0008_edge_masked_image.png',
+        original_url: processed_url.concat('0001_size_reduced_image.png'),
+        clearcut_url: processed_url.concat('0008_edge_masked_image.png'),
       };
 
       return await API.post(apiName, path, request_data);
