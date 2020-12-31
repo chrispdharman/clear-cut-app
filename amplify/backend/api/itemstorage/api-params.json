@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "clearcutstorage",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "itemstorage",
+    "apiName": "itemstorage",
+    "functionArns": [
+        {
+            "lambdaFunction": "clearcutstorage"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-clearcutapp-dev-150002-authRole",
+        "unAuthRoleName": "amplify-clearcutapp-dev-150002-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "clearcutstorage",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

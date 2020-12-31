@@ -1,5 +1,20 @@
 {
-  "api": {},
+  "api": {
+    "itemstorage": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "clearcutstorage",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  },
   "auth": {
     "clearcutappfab30f5c": {
       "service": "Cognito",

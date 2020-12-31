@@ -1,7 +1,6 @@
-import Amplify, { API } from 'aws-amplify';
-import awsconfig from '../aws-exports';
+import API from '@aws-amplify/api';
 
-Amplify.configure(awsconfig);
+API.configure();
 
 
 export default class Processor {
@@ -26,8 +25,8 @@ export default class Processor {
       const processed_url = 'https://clear-cut.s3.eu-west-2.amazonaws.com/results/live/20200621-205934/Bob/';
 
       // Store item (new)
-      const apiName = 'clearcutstorage';
-      const path = '/item'
+      const apiName = 'itemstorage';
+      const path = '/items'
       const request_data = {
         name: data.name,
         original_url: processed_url.concat('0001_size_reduced_image.png'),
