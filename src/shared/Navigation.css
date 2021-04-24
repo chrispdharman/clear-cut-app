@@ -1,10 +1,12 @@
-.Nav-bar {
-  background-color: lemonchiffon;
-  border: gold 1px solid;
+.Nav-logo {
+  height: auto;
+  width: 80px;
+  display: inline-block;
+  padding: 20px;
+  background-color: white;
 }
 
 .Nav-pane {
-  background-color: #ffffff;
   display: inline-block;
   vertical-align: middle;
 }
@@ -13,25 +15,27 @@
   float: left;
 }
 
+.Logo-pane img {
+  border: rgb(158, 253, 253) 4px outset;
+}
+
+.Links-pane {
+  position: absolute;
+  left: 128px;
+  right: 0;
+}
+
 .Links-pane a {
   min-width: 85px;
-  background-color: lemonchiffon;
-  border: gold 1px solid;
-  color: darkblue;
+  background-color: white;
+  border: rgb(158, 253, 253) 4px outset;
+  color: teal;
   display: inline-block;
-  margin-left: -1px;
-  padding: 53px 2px 52px 2px;
+  padding: 52px 0px 52px 0px;
   text-align: center;
   text-decoration: none;
 }
 
 .Links-pane a:hover {
-  background-color: #ffe866;
-}
-
-.Nav-logo {
-  height: 80px;
-  width: auto;
-  display: inline-block;
-  padding: 20px;
+  background-color: aliceblue;
 }
