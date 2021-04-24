@@ -10,7 +10,7 @@ function App() {
         <Navigation />
       </header>
       <div className='App-body'>
-        <p>[Some funky animation or something here.]</p>
+        <p>[Some funky animation or something here]</p>
       </div>
     </div>
   );
