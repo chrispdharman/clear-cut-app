@@ -22,7 +22,8 @@ class Uploader extends React.Component {
 
   handleChange(event) {
     this.setState({
-      file: URL.createObjectURL(event.target.files[0])
+      file: URL.createObjectURL(event.target.files[0]),
+      name: event.target.files[0].name
     })
   }
 

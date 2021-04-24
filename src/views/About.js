@@ -8,7 +8,7 @@ function App() {
         <Navigation />
       </header>
       <div className='App-body'>
-        <p>Welcome to ClearCut! An app designed to cut out the objects from an media you provide it.</p>
+        <p>Welcome to ClearCut! An app designed to cut out the objects from any media you provide it.</p>
       </div>
     </div>
   );
