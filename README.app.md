@@ -29,6 +29,21 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### --- DEBUG ---
+If you get:
+```
+Failed to compile
+createRequire is not a function
+Referenced from: BaseConfig
+```
+It means "upgrade node". See https://stackoverflow.com/questions/64835000/error-createrequire-is-not-a-function-referenced-from-baseconfig
+
+This can mean:
+ - `brew update`
+ - `npm ls`
+ - `nvm install --lts`
+ - mayb (`nvm alias-default 14.16.1`)
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
