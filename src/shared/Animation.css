@@ -1,0 +1,73 @@
+.RotatingObject {
+    background-color: teal;
+    border: aquamarine 4px solid;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 75px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    animation-direction: reverse;
+}
+
+.StartObject {
+    float: left;
+}
+
+.LastObject {
+    float: right;
+}
+
+.RotatingPane {
+    position: absolute;
+    display: inline-block;
+    top: 300px;
+    height: 108px;
+    width: 300px;
+}
+
+.Pane1 {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.Pane2 {
+    transform: rotate(45deg);
+    -webkit-animation:spin2 4s linear infinite;
+    -moz-animation:spin2 4s linear infinite;
+    animation:spin2 4s linear infinite;
+}
+
+.Pane3 {
+    transform: rotate(90deg);
+    -webkit-animation:spin3 4s linear infinite;
+    -moz-animation:spin3 4s linear infinite;
+    animation:spin3 4s linear infinite;
+}
+.Pane4 {
+    transform: rotate(135deg);
+    -webkit-animation:spin4 4s linear infinite;
+    -moz-animation:spin4 4s linear infinite;
+    animation:spin4 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes spin2 { 100% { -moz-transform: rotate(405deg); } }
+@-webkit-keyframes spin2 { 100% { -webkit-transform: rotate(405deg); } }
+@keyframes spin2 { 100% { -webkit-transform: rotate(405deg); transform:rotate(405deg); } }
+
+@-moz-keyframes spin3 { 100% { -moz-transform: rotate(450deg); } }
+@-webkit-keyframes spin3 { 100% { -webkit-transform: rotate(450deg); } }
+@keyframes spin3 { 100% { -webkit-transform: rotate(450deg); transform:rotate(450deg); } }
+
+@-moz-keyframes spin4 { 100% { -moz-transform: rotate(495deg); } }
+@-webkit-keyframes spin4 { 100% { -webkit-transform: rotate(495deg); } }
+@keyframes spin4 { 100% { -webkit-transform: rotate(495deg); transform:rotate(495deg); } }
