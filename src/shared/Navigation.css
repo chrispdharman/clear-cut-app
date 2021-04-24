@@ -20,12 +20,12 @@
 }
 
 .Logo-pane img {
-  border: rgb(158, 253, 253) 4px outset;
+  border: rgb(158, 253, 253) 6px outset;
 }
 
 .Links-pane {
   position: absolute;
-  left: 128px;
+  left: 132px;
   right: 0;
 }
 
@@ -35,7 +35,7 @@
   border: rgb(158, 253, 253) 4px outset;
   color: teal;
   display: inline-block;
-  padding: 52px 0px 52px 0px;
+  padding: 53px 0px 54px 0px;
   text-align: center;
   text-decoration: none;
 }
