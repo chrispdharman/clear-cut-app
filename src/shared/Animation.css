@@ -1,14 +1,3 @@
-.StopAnimation {
-    position: absolute;
-    top: 325px;
-    left: 97px;
-    display: inline-block;
-}
-
-.StopAnimation :hover {
-    cursor: pointer;
-}
-
 .AnimationMetaText {
     border: rgb(158, 253, 253) 4px outset;
     background-color: aliceblue;
@@ -16,15 +5,6 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
-}
-
-.StopAnimation button {
-    padding: 15px;
-}
-
-.StoppedAnimation {
-    width: 400px;
-    text-align: center;
 }
 
 .CuttingCircle {
@@ -36,35 +16,10 @@
     height: 193px;
     width: 193px;
 }
-.RotatingObject {
-    height: 100px;
-    width: 100px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 70px;
-}
-
-.StartObject {
-    float: left;
-    transform: rotate(-90deg);
-}
 
 .LastObject {
     float: right;
     transform: rotate(90deg);
-}
-
-.Scissors {
-    height: 30px;
-    width: auto;
-}
-
-.RotatingPane {
-    position: absolute;
-    display: inline-block;
-    top: 300px;
-    height: 108px;
-    width: 300px;
 }
 
 .Pane1 {
@@ -91,6 +46,52 @@
     -webkit-animation:spin4 4s linear infinite;
     -moz-animation:spin4 4s linear infinite;
     animation:spin4 4s linear infinite;
+}
+
+.RotatingObject {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+}
+
+.RotatingPane {
+    position: absolute;
+    display: inline-block;
+    top: 300px;
+    height: 108px;
+    width: 300px;
+}
+
+.Scissors {
+    height: 30px;
+    width: auto;
+}
+
+.StartObject {
+    float: left;
+    transform: rotate(-90deg);
+}
+
+.StopAnimation {
+    position: absolute;
+    top: 325px;
+    left: 97px;
+    display: inline-block;
+}
+
+.StopAnimation :hover {
+    cursor: pointer;
+}
+
+.StopAnimation button {
+    padding: 15px;
+}
+
+.StoppedAnimation {
+    width: 400px;
+    text-align: center;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
