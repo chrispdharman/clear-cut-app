@@ -11,8 +11,11 @@ function App() {
         <Navigation />
       </header>
       <div className='App-body'>
-        <p>[Some funky animation or something here]</p>
-        <Animation />
+        <p>Welcome to Chris' Clear Cut website! <br /> <br />
+          If you ever seen the below logo it means something is procesing/loading. <br />
+          To stop the processing event, click the cancel button inside the animation.
+        </p>
+        <Animation showCancel/>
       </div>
     </div>
   );
