@@ -1,25 +1,33 @@
-.RotatingObject {
-    background-color: teal;
-    border: aquamarine 4px solid;
+.CuttingCircle {
+    position: absolute;
+    border: black 1px dashed;
     border-radius: 100%;
+    top: 257px;
+    left: 53px;
+    height: 193px;
+    width: 193px;
+}
+.RotatingObject {
     height: 100px;
     width: 100px;
     text-align: center;
     vertical-align: middle;
-    color: white;
-    font-size: 75px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-    animation-direction: reverse;
+    font-size: 70px;
 }
 
 .StartObject {
     float: left;
+    transform: rotate(-90deg);
 }
 
 .LastObject {
     float: right;
+    transform: rotate(90deg);
+}
+
+.Scissors {
+    height: 30px;
+    width: auto;
 }
 
 .RotatingPane {
@@ -31,29 +39,29 @@
 }
 
 .Pane1 {
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
 }
 
 .Pane2 {
     transform: rotate(45deg);
-    -webkit-animation:spin2 4s linear infinite;
-    -moz-animation:spin2 4s linear infinite;
-    animation:spin2 4s linear infinite;
+    -webkit-animation:spin2 3s linear infinite;
+    -moz-animation:spin2 3s linear infinite;
+    animation:spin2 3s linear infinite;
 }
 
 .Pane3 {
     transform: rotate(90deg);
-    -webkit-animation:spin3 4s linear infinite;
-    -moz-animation:spin3 4s linear infinite;
-    animation:spin3 4s linear infinite;
+    -webkit-animation:spin3 3s linear infinite;
+    -moz-animation:spin3 3s linear infinite;
+    animation:spin3 3s linear infinite;
 }
 .Pane4 {
     transform: rotate(135deg);
-    -webkit-animation:spin4 4s linear infinite;
-    -moz-animation:spin4 4s linear infinite;
-    animation:spin4 4s linear infinite;
+    -webkit-animation:spin4 3s linear infinite;
+    -moz-animation:spin4 3s linear infinite;
+    animation:spin4 3s linear infinite;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
