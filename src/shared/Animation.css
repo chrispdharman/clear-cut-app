@@ -1,6 +1,6 @@
 .AnimationBlock {
     position: relative;
-    border: green 1px solid;
+    border: transparent 1px solid;
     height: 230px;
     width: 94%;
     left: 3%;
@@ -8,7 +8,7 @@
 
 .AnimationMetaText {
     border: rgb(158, 253, 253) 4px outset;
-    background-color: aliceblue;
+    background-color: white;
     color: teal;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -84,13 +84,14 @@
 }
 
 .StopAnimation {
+    display: inline-block;
     position: absolute;
     top: 85px;
     left: 140px;
-    display: inline-block;
 }
 
 .StopAnimation :hover {
+    background-color: aliceblue;
     cursor: pointer;
 }
 

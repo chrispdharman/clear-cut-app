@@ -1,0 +1,12 @@
+.App {
+    background-color: rgb(255, 250, 240);
+}
+
+.LandingText {
+    background-color: rgb(255, 255, 247);
+    border: rgb(255, 245, 230) 6px groove;
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+    z-index: 1;
+}
