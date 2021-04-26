@@ -1,3 +1,11 @@
+.AnimationBlock {
+    position: relative;
+    border: green 1px solid;
+    height: 230px;
+    width: 94%;
+    left: 3%;
+}
+
 .AnimationMetaText {
     border: rgb(158, 253, 253) 4px outset;
     background-color: aliceblue;
@@ -11,8 +19,8 @@
     position: absolute;
     border: black 1px dashed;
     border-radius: 100%;
-    top: 257px;
-    left: 53px;
+    top: 17px;
+    left: 97px;
     height: 193px;
     width: 193px;
 }
@@ -59,7 +67,8 @@
 .RotatingPane {
     position: absolute;
     display: inline-block;
-    top: 300px;
+    top: 60px;
+    left: 45px;
     height: 108px;
     width: 300px;
 }
@@ -76,8 +85,8 @@
 
 .StopAnimation {
     position: absolute;
-    top: 325px;
-    left: 97px;
+    top: 85px;
+    left: 140px;
     display: inline-block;
 }
 
@@ -90,7 +99,10 @@
 }
 
 .StoppedAnimation {
-    width: 400px;
+    width: -webkit-calc(100% - 8px);
+    width:    -moz-calc(100% - 8px);
+    width:         calc(100% - 8px);
+    margin-top: 75px;
     text-align: center;
 }
 

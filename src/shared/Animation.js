@@ -24,7 +24,7 @@ class Animation extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='AnimationBlock'>
         { // Controls whether to show the animation or not
           !this.state.showAnimation? 
           <div className='StoppedAnimation AnimationMetaText'><p>Process halted.</p></div>
