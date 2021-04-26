@@ -19,7 +19,7 @@ function App() {
         </p>
         <Animation showCancel/>
         <p className='LandingText'>
-          This site is not affliated to a company or organisation. <br /> <br />
+          This site is not affliated to any company, institue, or organisation. <br /> <br />
           It is simply the virtual playground of a bored and nerdy human being &#128406;.
         </p>
       </div>

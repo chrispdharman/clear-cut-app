@@ -9,7 +9,8 @@ class Navigation extends React.Component {
 
   render() {
     const activeLinkStyle = {
-      fontWeight: "bold"
+      backgroundColor: "rgb(130, 130, 130)",
+      border: "rgb(130, 130, 130) 1px solid"
     };
 
     return (
@@ -22,15 +23,15 @@ class Navigation extends React.Component {
 
         <div className="Nav-pane Links-pane">
           <NavLink exact to="/about" activeStyle={activeLinkStyle}>
-            About
+            ABOUT
           </NavLink>
           
           <NavLink exact to='/upload' activeStyle={activeLinkStyle}>
-            Upload
+            UPLOAD
           </NavLink>
 
           <NavLink exact to='/manage' activeStyle={activeLinkStyle}>
-            Manage
+            MANAGE
           </NavLink>
         </div>
       </div>

@@ -20,7 +20,8 @@
 }
 
 .Logo-pane img {
-  border: rgb(158, 253, 253) 6px outset;
+  border: rgb(180, 180, 180) 6px outset;
+  border-radius: 15px 0px;
 }
 
 .Links-pane {
@@ -31,15 +32,17 @@
 
 .Links-pane a {
   min-width: 85px;
-  background-color: white;
-  border: rgb(158, 253, 253) 4px outset;
-  color: teal;
+  background-color: rgb(180, 180, 180);
+  border: rgb(130, 130, 130) 4px solid;
+  border-radius: 0px 0px 0px 15px;
+  color: white;
   display: inline-block;
   padding: 53px 0px 54px 0px;
+  margin-right: 1px;
   text-align: center;
   text-decoration: none;
 }
 
 .Links-pane a:hover {
-  background-color: aliceblue;
+  background-color: rgb(130, 130, 130);
 }

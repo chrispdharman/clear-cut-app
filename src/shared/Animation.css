@@ -7,11 +7,10 @@
 }
 
 .AnimationMetaText {
-    border: rgb(158, 253, 253) 4px outset;
+    border: rgb(180, 180, 180) 6px outset;
     background-color: white;
-    color: teal;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
     font-size: 20px;
 }
 
@@ -87,7 +86,7 @@
     display: inline-block;
     position: absolute;
     top: 85px;
-    left: 140px;
+    left: 139px;
 }
 
 .StopAnimation :hover {
