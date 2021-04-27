@@ -90,7 +90,7 @@
 }
 
 .StopAnimation :hover {
-    background-color: aliceblue;
+    background-color: rgb(220, 220, 220);
     cursor: pointer;
 }
 

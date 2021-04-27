@@ -2,7 +2,7 @@
     background-color: whitesmoke;
 }
 
-.LandingText {
+p {
     background-color: white;
     border-bottom: whitesmoke 6px solid;
     border-right: whitesmoke 20px ridge;
@@ -11,5 +11,4 @@
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 6px;
-    z-index: 1;
 }
