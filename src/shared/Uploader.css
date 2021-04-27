@@ -5,7 +5,11 @@
 .File-Uploader img {
   height: auto;
   width: 80%;
-  background-color: #f8f8f8;
+  background-color: var(--interior-background);
+  border-bottom: var(--exterior-background) 6px solid;
+  border-right: var(--exterior-background) 20px ridge;
+  border-top: var(--exterior-background) 20px ridge;
+  border-left: var(--exterior-background) 20px groove;
   min-height: 30px;
   margin-top: 10px;
 }

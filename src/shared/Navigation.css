@@ -20,7 +20,7 @@
 }
 
 .Logo-pane img {
-  border: rgb(180, 180, 180) 6px outset;
+  border: var(--standard-button-colour) 6px outset;
   border-radius: 15px 0px;
 }
 
@@ -32,8 +32,8 @@
 
 .Links-pane a {
   min-width: 85px;
-  background-color: rgb(180, 180, 180);
-  border: rgb(130, 130, 130) 4px solid;
+  background-color: var(--standard-button-colour);
+  border: var(--depressed-button-colour) 4px solid;
   border-radius: 0px 0px 0px 15px;
   color: white;
   display: inline-block;
@@ -44,5 +44,5 @@
 }
 
 .Links-pane a:hover {
-  background-color: rgb(130, 130, 130);
+  background-color: var(--depressed-button-colour);
 }

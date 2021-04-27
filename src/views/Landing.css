@@ -1,13 +1,13 @@
 .App {
-    background-color: whitesmoke;
+    background-color: var(--exterior-background);
 }
 
 p {
-    background-color: white;
-    border-bottom: whitesmoke 6px solid;
-    border-right: whitesmoke 20px ridge;
-    border-top: whitesmoke 20px ridge;
-    border-left: whitesmoke 20px groove;
+    background-color: var(--interior-background);
+    border-bottom: var(--exterior-background) 6px solid;
+    border-right: var(--exterior-background) 20px ridge;
+    border-top: var(--exterior-background) 20px ridge;
+    border-left: var(--exterior-background) 20px groove;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 6px;
