@@ -1,13 +1,11 @@
-p.ImageConnector {
-    display: inline-block;
+.ImageConnector {
     background-color: var(--exterior-background);
-    border: none;
+    border: red 1px solid;
     padding: 6px;
 }
 
 .arrow {
-    display: inline-block;
-    border: solid black;
+    border: var(--depressed-button-colour) 1px solid;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
@@ -22,7 +20,11 @@ p.ImageConnector {
     padding-left: 20px;
 }
 
+.WhiteboardExample * {
+    display: inline-block;
+}
+
 .WhiteboardExample img {
-    border: black 1px solid;
+    border: var(--standard-button-colour) 1px solid;
     padding: 0px;
 }
