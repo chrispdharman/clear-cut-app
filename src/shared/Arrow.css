@@ -1,32 +1,40 @@
 .ArrowBlock {
     background-color: var(--exterior-background);
-    border: red 1px solid;
     padding: 6px;
 }
 
-.arrow {
+.arrow-body {
+    position: relative;
+    border: var(--depressed-button-colour) 1px solid;
+    border-width: 0 3px 3px 0;
+    width: 9px;
+}
+
+.arrow-head {
+    position: relative;
     border: var(--depressed-button-colour) 1px solid;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
+    margin-left: -7px;
 }
 
-.down {
+.arrow-head.down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
-.left {
+.arrow-head.left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
 
-.right {
+.arrow-head.right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
 
-.up {
+.arrow-head.up {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
 }

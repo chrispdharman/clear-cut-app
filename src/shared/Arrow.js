@@ -27,7 +27,8 @@ class Arrow extends React.Component {
   render() {
     return (
       <div className='ArrowBlock'>
-        <i className={`arrow ${ this.props.direction }`}></i>
+        <i className={`arrow-body ${ this.props.direction }`} />
+        <i className={`arrow-head ${ this.props.direction }`} />
       </div>
     );
   }

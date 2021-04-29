@@ -4,6 +4,7 @@
 
 .WhiteboardExample * {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .WhiteboardExample img {
