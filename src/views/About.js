@@ -1,3 +1,4 @@
+import Arrow from '../shared/Arrow';
 import Navigation from '../shared/Navigation';
 
 import original_image from '../media/images/0001_size_reduced_image.png';
@@ -19,11 +20,11 @@ function App() {
         </p>
         <div className='WhiteboardExample'>
           <img src={original_image} className="Nav-logo" alt="original image" />
-          <p className='ImageConnector'><i className="arrow right"></i></p>
+          <Arrow direction="right" />
           <img src={phase_one_image} className="Nav-logo" alt="gradient image" />
-          <p className='ImageConnector'><i className="arrow right"></i></p>
+          <Arrow direction="right" />
           <img src={phase_two_image} className="Nav-logo" alt="noise reduced gradient image" />
-          <p className='ImageConnector'><i className="arrow right"></i></p>
+          <Arrow direction="right" />
           <img src={final_image} className="Nav-logo" alt="final masked image" />
         </div>
       </div>
