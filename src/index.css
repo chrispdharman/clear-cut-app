@@ -1,8 +1,15 @@
 :root {
-  --exterior-background: whitesmoke;
+  /* GREYSCALE */ 
+  /* --exterior-background: whitesmoke;
   --interior-background: white;
   --standard-button-colour: rgb(180, 180, 180);
-  --depressed-button-colour: rgb(130, 130, 130);
+  --depressed-button-colour: rgb(130, 130, 130); */
+
+  /* STEEL */ 
+  --exterior-background: rgb(200, 225, 245);
+  --interior-background: rgb(227, 240, 250);
+  --standard-button-colour: rgb(141, 160, 180);
+  --depressed-button-colour: rgb(102, 115, 130);
 }
 
 body {

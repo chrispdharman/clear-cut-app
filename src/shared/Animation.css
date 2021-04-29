@@ -7,10 +7,10 @@
 }
 
 .AnimationMetaText {
-    border: rgb(180, 180, 180) 6px outset;
-    background-color: white;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+    border: var(--depressed-button-colour) 6px outset;
+    background-color: var(--standard-button-colour);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .StopAnimation :hover {
-    background-color: rgb(220, 220, 220);
+    background-color: var(--depressed-button-colour);
     cursor: pointer;
 }
 
