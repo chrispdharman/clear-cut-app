@@ -1,10 +1,10 @@
-import Arrow from '../shared/Arrow';
-import Navigation from '../shared/Navigation';
+import Arrow from '../../shared/Arrow';
+import Navigation from '../../shared/Navigation';
 
-import original_image from '../media/images/0001_size_reduced_image.png';
-import phase_one_image from '../media/images/0006_merged_image_cut.png';
-import phase_two_image from '../media/images/0007_noise_reduced_image.png';
-import final_image from '../media/images/0008_edge_masked_image.png';
+import original_image from '../../media/images/0001_size_reduced_image.png';
+import phase_one_image from '../../media/images/0006_merged_image_cut.png';
+import phase_two_image from '../../media/images/0007_noise_reduced_image.png';
+import final_image from '../../media/images/0008_edge_masked_image.png';
 import './Manage.css';
 
 function App() {

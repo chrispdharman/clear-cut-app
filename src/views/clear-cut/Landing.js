@@ -1,5 +1,5 @@
-import Navigation from '../shared/Navigation';
-import Animation from '../shared/Animation';
+import Navigation from '../../shared/Navigation';
+import Animation from '../../shared/Animation';
 import './Landing.css';
 
 import { withAuthenticator } from '@aws-amplify/ui-react'

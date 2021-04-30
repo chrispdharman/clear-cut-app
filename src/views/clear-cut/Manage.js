@@ -1,4 +1,4 @@
-import Navigation from '../shared/Navigation';
+import Navigation from '../../shared/Navigation';
 import './About.css';
 
 function About() {
