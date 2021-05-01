@@ -13,8 +13,8 @@ class Navigation extends React.Component {
     };
 
     return (
-      <div className='Nav-bar'>
-        <div className="Nav-pane Links-pane">
+      <div className='Root-nav-bar'>
+        <div className="Root-nav-pane Root-links-pane">
           <NavLink exact to="/" activeStyle={activeLinkStyle}>
             HOME
           </NavLink>

@@ -1,49 +1,24 @@
-.Nav-bar {
-  display: inline-block;
+.Root-nav-bar {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.Nav-logo {
-  height: auto;
-  width: 80px;
-  display: inline-block;
-  padding: 20px;
-  background-color: white;
-}
-
-.Nav-pane {
-  display: inline-block;
+.Root-nav-pane {
   vertical-align: middle;
 }
 
-.Logo-pane a {
-  float: left;
-}
-
-.Logo-pane img {
-  border: var(--standard-button-colour) 6px outset;
-  border-radius: 15px 0px;
-}
-
-.Links-pane {
-  position: absolute;
-  left: 132px;
-  right: 0;
-}
-
-.Links-pane a {
-  min-width: 85px;
+.Root-links-pane a {
+  min-width: 124px;
   background-color: var(--standard-button-colour);
   border: var(--depressed-button-colour) 4px solid;
   border-radius: 0px 0px 0px 15px;
   color: white;
   display: inline-block;
-  padding: 53px 0px 54px 0px;
+  padding: 10px 0px 10px 0px;
   margin-right: 1px;
   text-align: center;
   text-decoration: none;
 }
 
-.Links-pane a:hover {
+.Root-links-pane a:hover {
   background-color: var(--depressed-button-colour);
 }
