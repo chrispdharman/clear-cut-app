@@ -6,6 +6,7 @@ import About from './views/clear-cut/About';
 import Upload from './views/clear-cut/Upload';
 import Manage from './views/clear-cut/Manage';
 import Landing from './views/clear-cut/Landing';
+import Root from './views/Root';
 
 const routes = (
   <Switch>
@@ -13,6 +14,7 @@ const routes = (
     <Route path='/clear-cut/manage' component={Manage} />
     <Route path='/clear-cut/upload' component={Upload} />
     <Route path='/clear-cut' component={Landing} />
+    <Route path='/' component={Root} />
   </Switch>
 );
 

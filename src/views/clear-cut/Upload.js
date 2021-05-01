@@ -1,4 +1,4 @@
-import Navigation from '../../shared/Navigation';
+import Navigation from './Navigation';
 import Uploader from '../../shared/Uploader';
 import './Upload.css';
 

@@ -1,5 +1,5 @@
 import Arrow from '../../shared/Arrow';
-import Navigation from '../../shared/Navigation';
+import Navigation from './Navigation';
 
 import original_image from '../../media/images/0001_size_reduced_image.png';
 import phase_one_image from '../../media/images/0006_merged_image_cut.png';
