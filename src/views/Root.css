@@ -2,6 +2,15 @@
     background-color: var(--exterior-background);
 }
 
+h3 {
+    background-color: var(--exterior-background);
+    border-bottom: var(--exterior-background) 1px solid;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    margin-bottom: -20px;
+}
+
 p {
     background-color: var(--interior-background);
     border-bottom: var(--exterior-background) 6px solid;

@@ -10,6 +10,8 @@
   --interior-background: rgb(227, 240, 250);
   --standard-button-colour: rgb(141, 160, 180);
   --depressed-button-colour: rgb(102, 115, 130);
+  --root-standard-button-colour: rgb(240, 100, 100);
+  --root-depressed-button-colour: rgb(210, 70, 70);
 }
 
 body {

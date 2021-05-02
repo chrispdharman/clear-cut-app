@@ -8,8 +8,9 @@ class Navigation extends React.Component {
 
   render() {
     const activeLinkStyle = {
-      backgroundColor: "var(--depressed-button-colour)",
-      border: "var(--depressed-button-colour) 1px solid"
+      backgroundColor: "var(--root-depressed-button-colour)",
+      border: "var(--root-depressed-button-colour) 1px solid",
+      margin: "3px"
     };
 
     return (
