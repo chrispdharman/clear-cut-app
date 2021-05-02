@@ -19,7 +19,7 @@ function App() {
             <li>Draw out the main features of an image.</li>
             <li>Discard the small random noise of an image.</li>
           </ol>
-          If you're a developer and would like to play around with the package, you can install via <a href="https://pypi.org/project/clear-cut/" target="_blank"> https://pypi.org/project/clear-cut/ </a>.
+          If you're a developer and would like to play around with the package, you can install via <a href="https://pypi.org/project/clear-cut/" rel="noreferrer" target="_blank"> https://pypi.org/project/clear-cut/ </a>.
         </p>
         <h3>Usage</h3>
         <p>

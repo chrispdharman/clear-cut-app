@@ -1,5 +1,4 @@
 import Navigation from './Navigation';
-import RootNavigation from '../../shared/RootNavigation';
 import './About.css';
 
 function About() {

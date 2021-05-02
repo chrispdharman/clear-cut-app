@@ -10,11 +10,18 @@ function App() {
         <RootNavigation />
       </header>
       <div className='App-body'>
+        <h3>Welcome!</h3>
         <p className='LandingText'>
-          Welcome to Chris' website! <br /> <br />
-          Use the navigation bar above to select a section that you would like to explore. <br /> <br />
+          You have reached Chris' website! <br /> <br />
+          Please use the navigation bar above to explore various sections of this site. <br /> <br />
+          At the time of writing, this website is simply an playground for me to flex my software developer skillset.
+          This website is built in React.js via AWS Amplify: a serverless approach to building apps and websites (cool, right!?).
+          I am primarily and Backend developer, so if the Frontend works smoothly and find the design aesthetically pleasing, then please let me know so I can get myself and enjoy a vegan cookie. 🍪<br />
+        </p>
+        <h3>Disclaimer</h3>
+        <p className='LandingText'>
           This site is not affliated to any company, institue, or organisation. <br /> <br />
-          It is simply the virtual playground of a bored and nerdy human being &#128406;.
+          It is simply the virtual playground of a bored and nerdy human being. &#128406;
         </p>
       </div>
     </div>

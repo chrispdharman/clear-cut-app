@@ -21,7 +21,7 @@ class Arrow extends React.Component {
     var valid_directions = [ 'left', 'right', 'up', 'down', ];
     var is_valid = valid_directions.includes(direction);
 
-    if (!is_valid) throw 'Invalid Direction provided: ' + direction;
+    if (!is_valid) throw new Error('Invalid Direction provided: ' + direction);
   }
 
   render() {
